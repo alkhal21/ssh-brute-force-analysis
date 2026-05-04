@@ -44,7 +44,7 @@ Detailed report available in the /report folder
 
 ## 🛠️ Tools used
 * Wazuh (SIEM)
-* Namp (Reconnaissance)
+* Nmap (Reconnaissance)
 * Hydra (Brute Force Simulation)
 * Windows Event Logs
 
