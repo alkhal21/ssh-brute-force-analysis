@@ -40,7 +40,7 @@ This project simulates a real-world brute-force attack and demonstrates how secu
 * Enforce strong password policies
 
 ## Project Files 
-![Detailed report of the incident](report/)
+![Detailed report of the incident](Report/)
 
 ## 📸Attack Evidence & Log Analysis 
 ### 🔍Brute Force Detection (Failed Logins)
