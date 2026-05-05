@@ -42,6 +42,32 @@ This project simulates a real-world brute-force attack and demonstrates how secu
 ## Project Files 
 ![Detailed report of the incident](report/)
 
+## 📸Attack Evidence & Log Analysis 
+### 🔍Brute Force Detection (Failed Logins)
+The following logs show multiple failed login attempts (Event ID 4625), indicating a brute-force attack in progress:
+![Failed Login Attempts](screenshots/failed-logins.png)
+
+---
+
+### ✅Successful Compromise
+After repeated attempts, successful login attempts were observed, confirming credential compromise:
+![Successful Login](screenshots/success-login.png)
+
+---
+
+### 📊Wazuh Alert Correlation
+Wazuh SIEM correlates these events and flags suspicious authentication behavior:
+![Wazuh Alerts](screenshots/wazuh alert - failed login.png)
+![Wazuh Alerts](screenshots/wazuh alert - success login.png)
+
+---
+
+### ⚔️Attack Simulation (Hydra Output)
+The brute-force attack executed using Hydra generated several rapid authentication attempts:
+![Hydra Attack](screenshots/hydra-output.png)
+
+---
+
 ## 🛠️ Tools used
 * Wazuh (SIEM)
 * Nmap (Reconnaissance)
