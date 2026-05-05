@@ -40,7 +40,7 @@ This project simulates a real-world brute-force attack and demonstrates how secu
 * Enforce strong password policies
 
 ## Project Files 
-Detailed report available in the /report folder
+![Detailed report of the incident](report/)
 
 ## 🛠️ Tools used
 * Wazuh (SIEM)
