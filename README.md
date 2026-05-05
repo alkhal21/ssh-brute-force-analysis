@@ -40,7 +40,7 @@ This project simulates a real-world brute-force attack and demonstrates how secu
 * Enforce strong password policies
 
 ## Project Files 
-[Detailed report of the incident](Report/Windows SSH Brute force Root Cause Analysis.pdf)
+[Detailed report of the incident](Report/Windows_SSH_Brute_force_Root_Cause_Analysis.pdf)
 
 ## 📸Attack Evidence & Log Analysis 
 ### 🔍Brute Force Detection (Failed Logins)
